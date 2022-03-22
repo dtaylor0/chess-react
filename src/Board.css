@@ -1,0 +1,15 @@
+.component-square-panel {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    margin: auto;
+    margin-top: auto;
+}
+
+.component-square-panel > div {
+    width: 90%;
+    flex: 1 0 auto;
+    display: flex;
+}

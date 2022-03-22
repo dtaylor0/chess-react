@@ -1,0 +1,24 @@
+.component-square {
+    display: inline-flex;
+    background-color: rgb(155, 109, 78);
+    flex: 1 0 auto;
+    aspect-ratio: 1;
+}
+
+.component-square.light {
+    background-color: bisque;
+}
+
+.component-square button {
+    border: 0;
+    font-size: 1.5rem;
+    margin: 0 1px 0 0;
+    flex: 1 0 auto;
+    padding: 0;
+}
+
+.component-square img {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
